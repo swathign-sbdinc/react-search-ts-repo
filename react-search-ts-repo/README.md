@@ -20,53 +20,65 @@ These instructions will help you run the app locally for development purposes.
    Change into the project directory.
    ```
 
+```bash
 cd github-repo-search
+```
+
 Install dependencies.
 
+```bash
 npm install
+```
+
 Running the App
 Run the app in development mode:
 
+```bash
 npm start
+```
+
 Open http://localhost:3000 to view it in the browser. The page will reload if you make edits.
 
 Running Tests
 Launch the test runner in interactive watch mode:
 
+```bash
 npm test
+```
+
 Building for Production
 Build the app for production:
 
+```bash
 npm run build
+```
+
 The production-ready files will be in the build folder.
 
-## Extras Added
+### Extras Added
 
-### Pagination: Implemented a pagination component to navigate through the search results.
+**Unit Testing**: Unit Testing with Jest
 
-### Loading Spinner: Added a loading spinner while fetching data from the GitHub API.
+**Loading Spinner**: Added a loading spinner while fetching data from the GitHub API.
 
-### Error Handling: Implemented error handling for failed API requests, displaying appropriate messages to the user.
+**Error Handling**: Implemented error handling for failed API requests, displaying appropriate messages to the user.
 
-### Flagging Repositories: Added a flag button to toggle the visibility of repositories and stored the state in local storage.
+**Flagging Repositories**: Added a flag button to toggle the visibility of repositories and stored the state in local storage.
 
-### Styling Improvements: Enhanced the styling of components, including buttons and error messages.
+**Styling Improvements**: Enhanced the styling of components, including buttons and error messages.
 
-### Lazy Loading Images: Improved performance by lazy loading repository images.
+**Added Bable and Eslint**: For transpiling and linting.
 
-What Would Have Been Done with More Time
+**Lazy Loading** Images: Improved performance by lazy loading repository images.
 
-### SEO Optimization: Further optimize the application for search engines.
+## What Would Have Been Done with More Time
 
-### Image Caching: Implement image caching for better performance.
+**SEO Optimization**: Further optimize the application for search engines.
 
-### Responsive Design: Enhance the responsiveness of the application for various screen sizes.
+**Unit Testing**: Would have added more test suite and test cases.
 
-### Persist Page State: Store and retrieve the page state, including flag settings, on page refresh.
+**Image Caching**: Implement image caching for better performance.
 
-Learn More
-Learn more in the Create React App documentation.
+**Responsive Design**: Enhance the responsiveness of the application for various screen sizes.
 
-To learn React, check out the React documentation.
-
-<!-- ``` -->
+**Persist Page** State: Store and retrieve the page state, including flag settings, on page refresh.
