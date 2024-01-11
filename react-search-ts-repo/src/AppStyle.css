@@ -1,0 +1,65 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin: 0; */
+  overflow: hidden;
+width: 100%;
+}
+
+.app-container {
+  text-align: center;
+  padding: 20px;
+  width: 80vw;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.loader {
+  border: 6px solid #f3f3f3;
+  border-top: 6px solid #3498db;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.error-message {
+  color: #ff0000;
+  font-size: 1.5rem;
+  margin: 20px;
+  /* Centering error message */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.no-data-message {
+  color: #555;
+  font-size: 1.5rem;
+  margin: 20px;
+}
+
+.repo-container {
+  text-align: center;
+  overflow-y: auto; 
+  height: 70vh; 
+  width: auto;
+  border: 1px solid #000;
+  margin: 10px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

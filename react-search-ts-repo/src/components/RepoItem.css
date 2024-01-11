@@ -1,0 +1,31 @@
+/* RepoListItem.css */
+.list-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  width: 800px;
+}
+
+.image {
+  margin-right: 10px;
+  width: 100px;
+  height: 100px;
+}
+
+.content {
+  flex: 1;
+  text-align: left;
+}
+
+.button {
+  margin-left: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #3498db;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
