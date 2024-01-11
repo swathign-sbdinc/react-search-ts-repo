@@ -82,3 +82,9 @@ The production-ready files will be in the build folder.
 **Responsive Design**: Enhance the responsiveness of the application for various screen sizes.
 
 **Persist Page** State: Store and retrieve the page state, including flag settings, on page refresh.
+
+## Deployment
+
+To project has been deployed to my personal AWS account one can access though the below URL
+
+http://github-repo-list.s3-website-us-east-1.amazonaws.com/
