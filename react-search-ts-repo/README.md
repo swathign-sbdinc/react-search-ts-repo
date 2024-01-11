@@ -20,33 +20,33 @@ These instructions will help you run the app locally for development purposes.
    Change into the project directory.
    ```
 
-bash
-Copy code
+```bash
 cd github-repo-search
 Install dependencies.
 
-bash
-Copy code
+```
+
+````bash
 npm install
 Running the App
 Run the app in development mode:
 
-bash
-Copy code
+   ```bash
 npm start
 Open http://localhost:3000 to view it in the browser. The page will reload if you make edits.
 
 Running Tests
 Launch the test runner in interactive watch mode:
 
-bash
-Copy code
+````
+
+```bash
 npm test
 Building for Production
 Build the app for production:
+```
 
-bash
-Copy code
+```bash
 npm run build
 The production-ready files will be in the build folder.
 
@@ -76,3 +76,4 @@ Learn More
 Learn more in the Create React App documentation.
 
 To learn React, check out the React documentation.
+```
